@@ -26,4 +26,11 @@ switchInput.addEventListener('click', e => {
   e.target.previousElementSibling.checked
     ? changeTheme(lightTheme)
     : changeTheme(darkTheme);
+
+  //Equivalencia del operador ternario
+  // if (e.target.previousElementSibling.checked) {
+  //   changeTheme(lightTheme);
+  // } else {
+  //   changeTheme(darkTheme);
+  // }
 });
